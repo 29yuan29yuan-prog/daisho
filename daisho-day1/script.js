@@ -1,5 +1,5 @@
 const helloBtn = document.geElementByld("hellBtn");
-const message = cocument.getElementByld("message");
+const message = document.getElementByld("message");
 
 helloBtn.addEventListener("click",() =>{
     const hour = new Date().getHours();
