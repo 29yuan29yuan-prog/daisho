@@ -1,4 +1,4 @@
-const helloBtn = document.getElementByld("hellBtn");
+const helloBtn = document.getElementByld("helloBtn");
 const message = document.getElementByld("message");
 
 helloBtn.addEventListener("click",() =>{
