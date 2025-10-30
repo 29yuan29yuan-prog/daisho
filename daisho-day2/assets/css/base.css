@@ -11,6 +11,11 @@ html,body {margin:0;padding:0;}
     :root{
         --bg: #0b1020; --fg: #e5ecff; --muted: #9aa3b2;
         --card: #11172a; --border: #1f2a44; --shadow: 0 10px 28px rgba(0,0,0,.35);
-        --brand: #60a5fa; --brand-weak: 30f172a
+        --brand: #60a5fa; --brand-weak: #0f172a;
     }
+}
+body{
+    font-family: "Yu Gothic","Meiryo",system-ui, -apple-system, sans-serif;
+    color: var(--fg); background: radial-gradient(1600px 800px at 10% 0% ,#e8efff 0%, var(--bg)40%);
+    background-attachment: fixed;
 }
